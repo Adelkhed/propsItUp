@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import PersonCard from './components/PersonCard'
+import UserForm from './components/UserForm';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
        
        <PersonCard firstName={"Smith"} lastName={"Maria"} age={62} hairColor={"Brown"} />
      
+      <UserForm />
      
       
 
